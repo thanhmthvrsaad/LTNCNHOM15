@@ -7,7 +7,7 @@
 #include <SFML/Graphics.hpp>
 
 #include "IMonster.hpp"
-
+ 
 enum class FlyEyeState { Chase, Attack, TakeHit, Death };
 
 class FlyEye : public IMonster {
